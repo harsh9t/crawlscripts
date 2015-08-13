@@ -1,0 +1,4 @@
+DBPedia dataset lists
+Dataset |	nq-url	|	zipped size	|	un-zipped size	
+
+Mapping-based Types 	http://downloads.dbpedia.org/2015-04/core-i18n/en/instance-types_en.nq.bz2 	74.2 MB 	1.3GB
