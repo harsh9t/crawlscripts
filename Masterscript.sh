@@ -7,6 +7,7 @@
 #curl -O 
 #echo "done"
 
+
 echo "Crawl initiated"
 echo "crawling one dataset at a time.."
 sleep 1
@@ -17,7 +18,10 @@ echo "***************************************************"
 
 echo "Currently crawling Links to RDF Bookmashup.."
 sleep 1
-http://tools.wmflabs.org/wikidata-exports/rdf/exports/20150727/wikidata-terms.nt.gz -O http://tools.wmflabs.org/wikidata-exports/rdf/exports/20150727/wikidata-properties.nt.gz -O http://tools.wmflabs.org/wikidata-exports/rdf/exports/20150727/wikidata-statements.nt.gz -O http://tools.wmflabs.org/wikidata-exports/rdf/exports/20150727/wikidata-sitelinks.nt.gz
+curl -O http://tools.wmflabs.org/wikidata-exports/rdf/exports/20150727/wikidata-terms.nt.gz 
+curl -O http://tools.wmflabs.org/wikidata-exports/rdf/exports/20150727/wikidata-properties.nt.gz 
+curl -O http://tools.wmflabs.org/wikidata-exports/rdf/exports/20150727/wikidata-statements.nt.gz 
+curl -O http://tools.wmflabs.org/wikidata-exports/rdf/exports/20150727/wikidata-sitelinks.nt.gz
 echo "Done"
 echo "***************************************************"
 
