@@ -1,2 +1,2 @@
 # crawlscripts
-repository of shell scripts for crawling freebase, wikidata and dbpedia
+repository of naive (really) shell scripts for crawling freebase, wikidata and dbpedia
